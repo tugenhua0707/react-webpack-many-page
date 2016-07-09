@@ -5,13 +5,9 @@ var HtmlwebpackPlugin = require('html-webpack-plugin');
 var config = {
   entry: {
     index: [
-      'webpack-dev-server/client?http://127.0.0.1:8080',
-      'webpack/hot/dev-server',
       './pages/index/index.js'
     ],
     index2: [
-      'webpack-dev-server/client?http://127.0.0.1:8080',
-      'webpack/hot/dev-server',
       './pages/index2/index.js'
     ]
   },
@@ -73,7 +69,8 @@ var config = {
   },
   devServer: {
     contentBase: './',
-    hot: true
+    port:9000,
+    historyApiFallback:true
   }
 }
 module.exports = config
