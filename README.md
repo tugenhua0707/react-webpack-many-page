@@ -23,6 +23,7 @@ demo                                        # 工程名
 |   |---- webpack.config.js                 # webpack打包时使用的配置信息    
 |   |---- server.js                         # 启动本地服务器
 |   |---- .gitignore                        # 提交到git上排除的一些文件 
+|   |---- xx.html                           # 打包后生成对应的html文件放在项目的根目录下(当然还有很多页面)
 </pre>
 ###### 如上的项目的目录结构，
 ###### html是存放html模板页面，可以通过html-webpack-plugin插件会自动生成对应的页面,
