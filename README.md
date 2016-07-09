@@ -1,7 +1,7 @@
 
 ## 学习使用React+ES6+webpack 构建项目(可以实现热加载功能)
 #### 假如现在 项目的 目录结构：
-
+<pre>
 demo                                        # 工程名
 |   |--- html                               # 存放HTML模板页面
 |   |--- images                             # 存放项目中用到的所有图片
@@ -23,7 +23,7 @@ demo                                        # 工程名
 |   |---- webpack.config.js                 # webpack打包时使用的配置信息    
 |   |---- server.js                         # 启动本地服务器
 |   |---- .gitignore                        # 提交到git上排除的一些文件 
-
+</pre>
 #### 如上的项目的目录结构，
 #### html是存放html模板页面，可以通过html-webpack-plugin插件会自动生成对应的页面,
 #### pages目录是存放所有的单个页面的目录，比如page1页面，page2页面，在各个子文件夹下又存放对应页面的js文件
