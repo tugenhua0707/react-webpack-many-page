@@ -5,11 +5,13 @@ var HtmlwebpackPlugin = require('html-webpack-plugin');
 var config = {
   entry: {
     index: [
-      'webpack-hot-middleware/client?path=/__webpack_hmr',
+      'webpack-dev-server/client?http://127.0.0.1:8080',
+      'webpack/hot/dev-server',
       './pages/index/index.js'
     ],
     index2: [
-      'webpack-hot-middleware/client?path=/__webpack_hmr',
+      'webpack-dev-server/client?http://127.0.0.1:8080',
+      'webpack/hot/dev-server',
       './pages/index2/index.js'
     ]
   },
@@ -68,6 +70,10 @@ var config = {
         loader: 'url?limit=8192&name=img/[hash:8].[name].[ext]'
       }
     ]
+  },
+  devServer: {
+    contentBase: './',
+    hot: true
   }
 }
 module.exports = config

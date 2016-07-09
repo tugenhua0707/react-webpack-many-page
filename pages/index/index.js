@@ -10,7 +10,7 @@ if (module.hot) {
 
 ReactDOM.render(
   <div>
-    <p>快!修改我试试看!</p>
+    <p>快!修改我试试看222444!</p>
   </div>,
   document.getElementById('root')
 )

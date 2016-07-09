@@ -1,10 +1,10 @@
 {
-  "name": "webpack-HMR-express",
+  "name": "react-webpack-many-page2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "webpack-dev-server --config webpack.config.js"
   },
   "author": "liqinshuo",
   "keywords": [
@@ -35,6 +35,7 @@
     "html-webpack-plugin": "^2.22.0",
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^2.1.1"
+    "stylus-loader": "^2.1.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
